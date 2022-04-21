@@ -1,0 +1,225 @@
+@charset "UTF-8";
+
+/* CSS 초기화 */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video{
+margin:0;
+padding:0;
+border:0;
+font-size:100%;
+vertical-align:baseline;
+background:transparent;
+font-family: 'Noto Sans KR';
+-webkit-text-size-adjust: none;
+letter-spacing: -0.05em;
+word-break: keep-all;
+word-wrap: break-word;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+font-family: 'GmarketSansMedium', Sans-serif;
+line-height:1;
+background-color: #F8F6F1;
+height: 100%;
+font-size: 14px;
+color: #666;
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{ 
+display:block;
+}
+
+nav ul, li{
+list-style:none;
+}
+
+a{
+margin:0;
+padding:0;
+font-size:100%;
+text-decoration:none;
+vertical-align:baseline;
+color:#000;
+background:transparent;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+img{
+vertical-align:top;
+}
+
+table{
+border-collapse:collapse;
+border-spacing:0;
+}
+
+input{
+margin:0;
+padding:0;
+box-sizing:content-box;
+vertical-align:top;
+appearance:none;
+border:1px solid #e65d5d;
+color:#e65d5d;
+border-radius:0; 
+font-family: 'GmarketSansMedium', Sans-serif;
+}
+
+input::-moz-input-placeholder{
+color:#e65d5d;
+}
+
+input::-webkit-input-placeholder {
+color:#e65d5d;
+}
+label {vertical-align: middle;}
+address,em {font-style: normal;}
+
+i,
+em,
+u,
+cite {
+    font-style: normal
+}
+
+strong,
+b,
+th {
+    font-weight: bold;
+}
+
+fieldset,
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+img {
+    max-width: 100%;
+    width: auto
+}
+
+caption,
+legend {
+    overflow: hidden;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+}
+
+ul,
+ol,
+dl,
+dt,
+dd,
+li {
+    list-style: none
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+    font-size: 100%;
+}
+
+input,
+textarea,
+select {
+    border: 0;
+    color: #666;
+    vertical-align: middle;
+}
+
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary {
+    display: block;
+}
+
+button {
+    cursor: pointer;
+    outline: none;
+    *overflow: visible;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    font-family: 'Noto Sans KR', sans-serif;
+    vertical-align: middle;
+}
+
+button::-moz-focus-inner {
+    margin: 0;
+    padding: 0;
+    border: 0
+}
+
+button,
+input[type="submit"],
+input[type="button"],
+input[type="reset"] {
+    cursor: pointer;
+    border: 0
+}
+
+figcaption {
+    position: absolute;
+    overflow: hidden;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+}
+
+legend {
+    overflow: hidden;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+}
+
+/* 웹폰트 넣기 : @font-face{font-family:'폰트이름'; src:url(폰트경로)}*/
+@font-face {
+    font-family: "GmarketSansBold";
+    src: url(../font/GmarketSansBold.woff);
+}
+@font-face {
+    font-family: "GmarketSansMedium";
+    src: url(../font/GmarketSansMedium.woff);
+}
+@font-face {
+    font-family: "GmarketSansLight";
+    src: url(../font/GmarketSansLight.woff);
+}
+
+.hidden{display: none;}
+*{box-sizing: border-box;}
